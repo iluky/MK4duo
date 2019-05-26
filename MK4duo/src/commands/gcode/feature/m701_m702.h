@@ -150,7 +150,6 @@ inline void gcode_M702(void) {
         }
       }
       else
-    #endif
     {
       // Unload length
       const float unload_length = ABS(parser.seen('U')  ? parser.value_axis_units(E_AXIS)
